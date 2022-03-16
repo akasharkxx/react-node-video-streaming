@@ -80,7 +80,7 @@ app.get('/video/:id/poster', (req, res) => {
 });
 
 app.get('/video/:id/caption', (req, res) => {
-    res.sendFile('assets/captions/sample.vtt', {root: __dirname});
+    res.sendFile('assets/captions/sample.vtt', { root: __dirname })
 });
 
 app.listen(4000, () => {
